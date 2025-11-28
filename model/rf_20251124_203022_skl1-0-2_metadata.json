@@ -1,0 +1,42 @@
+{
+  "model_tag": "rf_20251124_203022_skl1-0-2",
+  "sklearn_version": "1.0.2",
+  "numpy_version": "1.24.3",
+  "timestamp": "20251124_203022",
+  "features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "metrics": {
+    "timestamp": "2025-11-24 14:30:22",
+    "accuracy": 0.8983050847457628,
+    "precision": 0.640625,
+    "recall": 0.26282051282051283,
+    "f1_score": 0.37272727272727274,
+    "roc_auc": 0.8844686052221439,
+    "confusion_matrix": [
+      [
+        1178,
+        23
+      ],
+      [
+        115,
+        41
+      ]
+    ]
+  }
+}
