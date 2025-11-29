@@ -33,6 +33,7 @@ class InputData(BaseModel):
 def predict(input_data: InputData):
     try:
         data = input_data.dict()
+        print(data)
         res = predict_from_dict(data, MODELS_DIR)
         # guardar en mongo
         save_prediction_to_mongo({"input": data, "result": res})
